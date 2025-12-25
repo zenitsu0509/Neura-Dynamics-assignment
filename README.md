@@ -57,14 +57,25 @@ See [prompts.md](prompts.md) for a detailed breakdown of the prompt engineering 
 
 ## Evaluation Results
 
-(Placeholder for your manual evaluation results)
+--- Evaluation Summary ---
+Q: What is the time limit for refunds?
+Score: 3
+Q: Can I cancel my order if it has already shipped?
+Score: 2
+Q: Do you ship to France?
+Score: 3
+Q: What is the restocking fee for late cancellations?
+Score: 3
+Q: How do I contact support for a missing refund?
+Score: 3
+Q: Can I return a gift card?
+Score: 3
+Q: What is the company's policy on remote work?
+Score: 3
+Q: Can I get a refund if I bought the item 35 days ago?
+Score: 3
 
-| Question Type | Accuracy | Hallucination | Clarity |
-| :--- | :--- | :--- | :--- |
-| Answerable | High | None | High |
-| Unanswerable | High | None | High |
-| Edge Cases | High | None | High |
-
+Total Score: 23/24
 ## Key Trade-offs & Improvements
 
 -   **Chunking:** Fixed-size chunking is simple but might split semantic units. **Improvement:** Semantic chunking or recursive character splitting.
